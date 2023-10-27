@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Joan",
+      "empresa": "Netflix",
+      "email": "jimjoa2903@gmail.com",
+      "telefono": "0948461559",
+      "notas": "Ingreso",
+      "id": 1
+    },
+    {
+      "nombre": "Berna",
+      "empresa": "Spotify",
+      "email": "gonzalezbcarmina@gmail.com",
+      "telefono": "950529085",
+      "notas": "Ingreso",
+      "id": 2
+    },
+    {
+      "nombre": "Pedro",
+      "empresa": "Angular",
+      "email": "pedro@pedro.com",
+      "telefono": "234234234234",
+      "notas": "Ingreso",
+      "id": 3
+    }
+  ]
+}
