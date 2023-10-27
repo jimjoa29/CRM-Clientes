@@ -17,7 +17,7 @@ const Cliente = ({ cliente }) => {
     return (
 
         <tr className='border-b'>
-            <td className='p-4 space-y-2'>
+            <td className='p-4 space-y-1'>
                 <p className='text-2xl text-gray-800'>{nombre}</p>
                 <p className='text-gray-500 text-sm'>{empresa}</p>
             </td>
@@ -26,7 +26,7 @@ const Cliente = ({ cliente }) => {
                 <p className='text-gray-600'><span className='text-gray-800 uppercase font '>Telefono: </span>{telefono}</p>
             </td>
 
-            <td className='p-4 flex gap-3'>
+            <td className='p-3 flex gap-3'>
                 <button
                     type='button'
                     className='text-blue-600 hover:text-blue-600 uppercase font-bold text-xs '
@@ -47,7 +47,7 @@ const Cliente = ({ cliente }) => {
                 >
                     <button
                         type='submit'
-                        className='text-red-600 hover:text-red-600 uppercase font-bold text-xs'
+                        className='text-red-600 hover:text-red-600 uppercase font-bold text-xs '
 
                     >
                         Eliminar
