@@ -11,7 +11,7 @@ const Layout = () => {
                 <nav className='mt-10 '>
                     <Link className={`${location.pathname === '/' ? 'text-blue-300' : 'text-white'} text-base block hover:text-blue-300 `} to="/">Cliente</Link>
                     <Link className={`${location.pathname === '/clientes/nuevo' ? 'text-blue-300' : 'text-white'} text-base block hover:text-blue-300 my-2`} to="/clientes/nuevo">Nuevo cliente</Link>
-                    <Link className={`${location.pathname === '/contacto' ? 'text-blue-300' : 'text-white'} text-base block hover:text-blue-300 `} to="/contacto">Contacto</Link>
+                    {/* <Link className={`${location.pathname === '/contacto' ? 'text-blue-300' : 'text-white'} text-base block hover:text-blue-300 `} to="/contacto">Contacto</Link> */}
                 </nav>
             </aside>
 

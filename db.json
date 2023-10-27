@@ -1,7 +1,7 @@
 {
   "clientes": [
     {
-      "nombre": "Joan",
+      "nombre": "Joan Alejandro",
       "empresa": "Netflix",
       "email": "jimjoa2903@gmail.com",
       "telefono": "0948461559",
@@ -9,7 +9,7 @@
       "id": 1
     },
     {
-      "nombre": "Berna",
+      "nombre": "Berna Gonzalez",
       "empresa": "Spotify",
       "email": "gonzalezbcarmina@gmail.com",
       "telefono": "950529085",
@@ -23,6 +23,14 @@
       "telefono": "234234234234",
       "notas": "Ingreso",
       "id": 3
+    },
+    {
+      "nombre": "Felipe",
+      "empresa": "IT Chile",
+      "email": "felipe@felipe.cl",
+      "telefono": "95621312312",
+      "notas": "Ingreso",
+      "id": 4
     }
   ]
 }

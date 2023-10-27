@@ -7,7 +7,7 @@ import Layout from './components/Layout';
 import NuevoCliente, { action as nuevoClienteAction } from './pages/NuevoCliente';
 
 import Index, { loader as clientesLouder } from './pages/Index'
-import Contacto from './pages/Contacto';
+// import Contacto from './pages/Contacto';
 import ErrorPage from './components/ErrorPage';
 import EditarCliente, { loader as editarClienteLoader, action as editarClienteAction } from './pages/EditarCliente';
 import  {action as eliminarClienteAction} from './components/Cliente';
@@ -44,11 +44,11 @@ const router = createBrowserRouter([
 
 
       },
-      {
-        path: '/contacto',
-        element: <Contacto />,
+      // {
+      //   path: '/contacto',
+      //   element: <Contacto />,
 
-      }
+      // }
     ]
   },
 
